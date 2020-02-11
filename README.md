@@ -1,7 +1,5 @@
 # ConstantTimeDB
 
-# ION - Incredible Object Notation #
-
 ### What is ConstantTimeDB? ###
 
 ConstantTimeDB is a fast in-memory on-disk hybrid database that does not lose speed with volumes and ensures fast operations. ConstantTimeDB indexes on all columns using a very evenly distributed hashing algoritm called MurmurHash to ensure minimal chance of collisions. The hash indexing ensures liniar space usage as well as liniar CRUD operations. Saving to the disk is instant and bit serialized using one of my other projects - ION.
